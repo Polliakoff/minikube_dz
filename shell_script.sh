@@ -29,22 +29,17 @@ echo "Check Kubernetes configuration"
 echo
 sleep 5
 echo
-echo "Secrets"
+echo "-- Secrets"
 echo
 kubectl get secrets
 echo
-echo "Pods"
+echo "-- Pods"
 echo
 kubectl get pods
 echo
-echo "Services"
+echo "-- Services"
 echo
 kubectl get services
-
-#echo
-#echo "Ensure Kubernetes proxy is serving on :8080"
-#echo
-#kubectl proxy --address='0.0.0.0' --port=8080 --accept-hosts='.*'
 
 
 
