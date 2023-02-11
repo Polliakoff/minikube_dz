@@ -37,7 +37,7 @@ conn = None
 def listBlog():
     global conn
     if not conn:
-        conn = DBManager(password_file='/app/db-password')
+        conn = DBManager(password_file='/app/secrets/db-password')
         conn.populate_db()
     rec = conn.query_titles()
 
