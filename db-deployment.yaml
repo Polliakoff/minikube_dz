@@ -23,7 +23,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: db-password
-                  key: dp-password
+                  key: db-password
           ports:
             - containerPort: 3306
               name: db
