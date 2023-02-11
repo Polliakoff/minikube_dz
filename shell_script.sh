@@ -41,6 +41,9 @@ echo "-- Services"
 echo
 kubectl get services
 
+echo
+echo "ALL DONE"
+echo
 
 
 
